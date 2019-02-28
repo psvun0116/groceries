@@ -13,7 +13,9 @@ $(document).ready(function() {
     $("#result ul").append("<li>" + answers[1] + "</li>");
     $("#result ul").append("<li>" + answers[2] + "</li>");
     $("#result ul").append("<li>" + answers[3] + "</li>");
+
     $("#result").show();
+    $("#blanks").hide();
 
     event.preventDefault();
   });
